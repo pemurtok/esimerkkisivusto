@@ -3,37 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yrityksen nimi</title>
+  <title>Rakennuspalvelu Oy</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Tervetuloa!</h1>
-    <p>Olemme luotettava ja palveleva yritys</p>
+    <div class="container">
+      <div class="logo">Rakennuspalvelu Oy</div>
+      <nav>
+        <ul>
+          <li><a href="#palvelut">Palvelut</a></li>
+          <li><a href="#tietoa">Tietoa meistä</a></li>
+          <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section class="about">
-    <h2>Meistä</h2>
-    <p>Tarjoamme laadukkaita palveluita yrityksille ja kuluttajille. Ota yhteyttä!</p>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Kaikki rakennustyöt ammattitaidolla</h1>
+    </div>
   </section>
 
-  <section class="services">
-    <h2>Palvelumme</h2>
-    <ul>
-      <li>Palvelu 1</li>
-      <li>Palvelu 2</li>
-      <li>Palvelu 3</li>
-    </ul>
-  </section>
+  <section class="services" id="palvelut">
+    <div class="service">
+      <img src="rakentaminen.jpg" alt="Rakennustyö" />
+      <div>
+        <h2>Rakennuspalvelut</h2>
+        <p>Remontit, uudiskohteet ja huoltotyöt. Teemme työt tuntihinnalla tai urakkana, tarvikkeilla tai ilman.</p>
+        <a href="yhteystiedot.html" class="btn">Ota yhteyttä</a>
+      </div>
+    </div>
 
-  <section class="contact">
-    <h2>Yhteystiedot</h2>
-    <p>Sähköposti: info@yritys.fi</p>
-    <p>Puhelin: 040 123 4567</p>
+    <div class="service reverse">
+      <img src="metsanhoito.jpg" alt="Metsänhoito" />
+      <div>
+        <h2>Metsänhoitopalvelut</h2>
+        <p>Taimikonhoito, metsänistutus ja muut metsätyöt ammattitaidolla.</p>
+        <a href="yhteystiedot.html" class="btn">Ota yhteyttä</a>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Yrityksen nimi</p>
+    <div class="container">
+      <p>&copy; 2025 Rakennuspalvelu Oy</p>
+      <p>email@example.com | 040 123 4567</p>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="https://wa.me/358401234567">WhatsApp</a>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
